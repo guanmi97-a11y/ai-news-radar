@@ -1,0 +1,45 @@
+name: Update AI News Radar
+
+on:
+  schedule:
+    # 每天 8 点 UTC，你可以改成自己想要的时间
+    - cron: '0 8 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.14
+
+    - name: Install dependencies
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run update script with proxy
+      env:
+        # 替换成你的可用代理，如果不需要可删除下面两行
+        HTTP_PROXY: http://127.0.0.1:7890
+        HTTPS_PROXY: http://127.0.0.1:7890
+      run: |
+        source .venv/bin/activate
+        python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.example.opml
+
+    - name: Commit and push data
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        git add data/
+        git commit -m "Update news data"
+        git push
+      continue-on-error: true
