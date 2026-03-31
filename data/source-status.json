@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T09:21:30.939018Z",
+  "generated_at": "2026-03-31T09:09:55.579703Z",
   "sites": [
     {
       "site_id": "techurls",
@@ -30,7 +30,7 @@
       "site_name": "BestBlogs",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 9605,
+      "duration_ms": 9604,
       "error": "HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Max retries exceeded with url: /en/newsletter (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
     },
     {
@@ -87,7 +87,7 @@
       "ok": false,
       "partial_failures": 3,
       "item_count": 0,
-      "duration_ms": 4,
+      "duration_ms": 3,
       "error": "3 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -166,7 +166,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 2,
+        "duration_ms": 1,
         "error": "HTTPSConnectionPool(host='openai.com', port=443): Max retries exceeded with url: /news/rss.xml (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))",
         "skipped": false,
         "skip_reason": null,
