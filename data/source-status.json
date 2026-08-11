@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-10T09:39:22.269999Z",
+  "generated_at": "2026-08-11T09:04:52.163679Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 4803,
+      "duration_ms": 4802,
       "error": "HTTPSConnectionPool(host='techurls.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "BestBlogs",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 9604,
+      "duration_ms": 9603,
       "error": "HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Max retries exceeded with url: /en/newsletter (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Zeli",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 4802,
+      "duration_ms": 4801,
       "error": "HTTPSConnectionPool(host='zeli.app', port=443): Max retries exceeded with url: /api/hacker-news?type=hot24h (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 4802,
+      "duration_ms": 4801,
       "error": "HTTPSConnectionPool(host='www.aibase.com', port=443): Max retries exceeded with url: /zh/news (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
     },
     {
@@ -87,7 +87,7 @@
       "ok": false,
       "partial_failures": 3,
       "item_count": 0,
-      "duration_ms": 2,
+      "duration_ms": 1,
       "error": "3 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -113,8 +113,8 @@
   ],
   "zero_item_sites": [],
   "fetched_raw_items": 0,
-  "items_before_topic_filter": 4817,
-  "items_in_24h": 414,
+  "items_before_topic_filter": 0,
+  "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.example.opml",
@@ -138,7 +138,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 1,
+        "duration_ms": 0,
         "error": "HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /blog/feed.xml (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))",
         "skipped": false,
         "skip_reason": null,
