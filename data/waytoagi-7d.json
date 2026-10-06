@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-10-06T14:56:54.251268Z",
+  "generated_at": "2026-10-06T17:05:07.788269Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-  "history_url": null,
+  "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
+  "latest_date": null,
+  "count_today": 0,
+  "updates_today": [],
   "count_7d": 0,
   "updates_7d": [],
-  "warning": "WaytoAGI 近7日更新抓取失败",
-  "has_error": true,
-  "error": "HTTPSConnectionPool(host='waytoagi.feishu.cn', port=443): Max retries exceeded with url: /wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [Errno 111] Connection refused\")))"
+  "warning": "近7日未解析到更新条目",
+  "has_error": false,
+  "error": null
 }
